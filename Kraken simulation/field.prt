@@ -1,0 +1,40 @@
+
+ __________________________________________________
+ Running FIELD
+ Sums modes, producing pressure
+
+ Range-dependent calculation
+ Adiabatic modes
+
+ Number of profiles   =            1
+   0.00000    
+
+ Number of ranges   =           83
+ Receiver ranges (km)
+   1.50000       1.52000       1.54000       1.56000       1.58000    
+   1.60000       1.62000       1.64000       1.66000       1.68000    
+   1.70000       1.72000       1.74000       1.76000       1.78000    
+   1.80000       1.82000       1.84000       1.86000       1.88000    
+   1.90000    
+  ...    3.5000000    
+
+ Number of sources   =            1
+ Source depths (m)
+   9.00000    
+
+ Number of receivers =           13
+ Receiver depths (m)
+   94.1250       103.500       112.875       122.250       131.625    
+   141.000       150.375       159.750       169.125       178.500    
+   187.875       197.250       206.625    
+
+ Number of receiver range offsets =           13
+ Receiver range offsets (km)
+   0.00000       0.00000       0.00000       0.00000       0.00000    
+   0.00000       0.00000       0.00000       0.00000       0.00000    
+   0.00000       0.00000       0.00000    
+
+ iprof =            1
+ KRAKEN- SWellEx96                                                               
+ iprof =            1
+ KRAKEN- SWellEx96                                                               
