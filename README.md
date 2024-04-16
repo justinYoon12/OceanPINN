@@ -51,7 +51,7 @@ Includes parameters for training OceanPINN:
 Use main.py or Main_jup.ipynb (Same code) to train PINN. <br/>
 
 **4. Code to generate pressure field with trained PINN** <br/>
-Use Test_PINN_v2.ipynb to generate a pressure field with trained PINN.<br/>
+Use Test_PINN.ipynb to generate a pressure field with trained PINN.<br/>
 
 **5. Example case from the paper** <br/>
 Trained PINN model for SWellEx-96 simulation in noiseless condition is included in 'p_109_noiseless' Folder. <br/>
