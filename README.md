@@ -30,7 +30,7 @@ For simulation in the SWellEx-96 environmet as the paper, you can use codes in t
 The data used in the paper is available in the 'data' folder for reference.
 
 2. parameter.json <br/>
-+Includes parameters for training OceanPINN:
++ Includes parameters for training OceanPINN:
   * data_name: training data file name (.mat format)
   * lr : learning rate
   * max_iter : maximum number of iterations
