@@ -27,7 +27,7 @@ Include serveral variables:
   * dep_save: Corresponding depth for sound speed profile
 
 For simulation in the SWellEx-96 environmet as the paper, you can use codes in the 'Kraken simulation' folder (requires [kraken](http://oalib.hlsresearch.com/AcousticsToolbox/) installed).
-The data used in the paper is available in the 'data' folder for reference.
+The simulation data used in the paper is available in the 'data' folder for reference.
 
 **2. parameter.json**  <br/>
 Includes parameters for training OceanPINN:
