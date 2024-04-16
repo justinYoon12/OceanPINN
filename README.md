@@ -16,7 +16,7 @@ The workflow is as follows:
 5) Load the PINN-generated data and plot the results.
 
 Details for each procedure: <br/>
-**1. Training data** <br/>
+**1. Training data**
 + format: .mat files
 + Include serveral variables:
   * r: Sampled range
@@ -29,7 +29,7 @@ Details for each procedure: <br/>
 For simulation in the SWellEx-96 environmet as the paper, you can use codes in the 'Kraken simulation' folder (requires [kraken](http://oalib.hlsresearch.com/AcousticsToolbox/) installed).
 The data used in the paper is available in the 'data' folder for reference.
 
-**2. parameter.json** <br/>
+**2. parameter.json** 
 + Includes parameters for training OceanPINN:
   * data_name: training data file name (.mat format)
   * lr : learning rate
