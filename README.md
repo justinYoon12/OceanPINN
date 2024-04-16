@@ -54,7 +54,8 @@ Use main.py or Main_jup.ipynb (Same code) to train PINN. <br/>
 Use Test_PINN_v2.ipynb to generate a pressure field with trained PINN.<br/>
 
 5. Example case from the paper <br/>
-Simulation for the noiseless case is included. Training data is in the data folder and the trained PINN model and estimates are in the 'p_109_noiseless' folder. The generated pressure field can be read using 'Load_PINN_results.m'. <br/>
+Trained PINN model for SWellEx-96 simulation in noiseless condition is included in 'p_109_noiseless' Folder. <br/>
+The generated pressure field can be read using 'Load_PINN_results.m'. <br/>
 
 # Citation
 ```
