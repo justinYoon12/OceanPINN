@@ -31,21 +31,21 @@ The data used in the paper is available in the 'data' folder for reference.
 
 2. parameter.json
 +Includes parameters for training OceanPINN:
- * data_name: training data file name (.mat format)
- * lr : learning rate
- * max_iter : maximum number of iterations
- * num_col: number of collocation points
- * bnd_num: number of boundary points
- * r_bnd : lower and upper bound of range (to sample collocation points)
- * z_bnd : lower and upper bound of depth (to sample collocation points)
- * num_r_test : number of range samples in generated field (for test in the last iteration)
- * num_z_test : number of depth samples in generated field (for test in the last iteration)
- * r_test : lower and upper bound of range for generated field after training (for test in the last iteration)
- * z_test : lower and upper bound of depth for generated field after training (for test in the last iteration)
- * L : Loss weight coefficient for PDE loss
- * seed : random seed
- * kind : Hankel First (1) or Second (2) depend on sign of Fourier transform 
- * net_type : If "dnn", it is not pretrained. If you specify the pretrained model name, it is loaded.
+  * data_name: training data file name (.mat format)
+  * lr : learning rate
+  * max_iter : maximum number of iterations
+  * num_col: number of collocation points
+  * bnd_num: number of boundary points
+  * r_bnd : lower and upper bound of range (to sample collocation points)
+  * z_bnd : lower and upper bound of depth (to sample collocation points)
+  * num_r_test : number of range samples in generated field (for test in the last iteration)
+  * num_z_test : number of depth samples in generated field (for test in the last iteration)
+  * r_test : lower and upper bound of range for generated field after training (for test in the last iteration)
+  * z_test : lower and upper bound of depth for generated field after training (for test in the last iteration)
+  * L : Loss weight coefficient for PDE loss
+  * seed : random seed
+  * kind : Hankel First (1) or Second (2) depend on sign of Fourier transform 
+  * net_type : If "dnn", it is not pretrained. If you specify the pretrained model name, it is loaded.
 
 3. Main code <br/>
 Use main.py or Main_jup.ipynb (Same code) to train PINN. <br/>
