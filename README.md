@@ -29,7 +29,7 @@ Details for each procedure:
 For simulation in the SWellEx-96 environmet as the paper, you can use codes in the 'Kraken simulation' folder (requires [kraken](http://oalib.hlsresearch.com/AcousticsToolbox/) installed).
 The data used in the paper is available in the 'data' folder for reference.
 
-2. *parameter.json*
+2. parameter.json
 +Includes parameters for training OceanPINN:
  * data_name: training data file name (.mat format)
  * lr : learning rate
