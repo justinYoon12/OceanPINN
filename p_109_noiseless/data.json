@@ -1,0 +1,29 @@
+{
+    "data_name": "p_109_noiseless.mat",
+    "lr": 0.001,
+    "max_iter": 1200000,
+    "num_col": 3000,
+    "num_z_test": 300,
+    "num_r_test": 200,
+    "r_bnd": [
+        800.0,
+        4200.0
+    ],
+    "z_bnd": [
+        0.1,
+        216.4
+    ],
+    "r_test": [
+        900.0,
+        4100.0
+    ],
+    "z_test": [
+        0.0,
+        216.5
+    ],
+    "L": 1,
+    "seed": 0,
+    "bnd_num": 100,
+    "net_type": "dnn",
+    "kind": 2
+}
