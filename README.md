@@ -56,6 +56,7 @@ Use Test_PINN.ipynb to generate a pressure field with trained PINN.<br/>
 **5. Example case from the paper** <br/>
 Trained PINN model for SWellEx-96 simulation in noiseless condition is included in 'p_109_noiseless' Folder. <br/>
 The generated pressure field can be read using 'Load_PINN_results.m' in 'Plot results' folder. <br/>
+'hotAndCold.mat' is colormap from [NoiseLab](http://noiselab.ucsd.edu/Gerstoft.html), thanks to Peter Gerstoft.
 
 # Citation
 ```
