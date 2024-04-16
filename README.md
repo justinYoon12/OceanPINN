@@ -16,7 +16,7 @@ The workflow is as follows:
 5) Load the PINN-generated data and plot the results.
 
 Details for each procedure:
-1. Training data
+**1. Training data**
 + format: .mat files
 + Include serveral variables:
   * r: Sampled range
@@ -29,7 +29,7 @@ Details for each procedure:
 For simulation in the SWellEx-96 environmet as the paper, you can use codes in the 'Kraken simulation' folder (requires [kraken](http://oalib.hlsresearch.com/AcousticsToolbox/) installed).
 The data used in the paper is available in the 'data' folder for reference.
 
-2. <b> parameter.json <br/>
+**2. parameter.json** <br/>
 + Includes parameters for training OceanPINN:
   * data_name: training data file name (.mat format)
   * lr : learning rate
@@ -47,13 +47,13 @@ The data used in the paper is available in the 'data' folder for reference.
   * kind : Hankel First (1) or Second (2) depend on sign of Fourier transform 
   * net_type : If "dnn", it is not pretrained. If you specify the pretrained model name, it is loaded.
 
-3. Main code <br/>
+**3. Main code** <br/>
 Use main.py or Main_jup.ipynb (Same code) to train PINN. <br/>
 
-4. Code to generate pressure field with trained PINN <br/>
+**4. Code to generate pressure field with trained PINN** <br/>
 Use Test_PINN_v2.ipynb to generate a pressure field with trained PINN.<br/>
 
-5. Example case from the paper <br/>
+**5. Example case from the paper** <br/>
 Trained PINN model for SWellEx-96 simulation in noiseless condition is included in 'p_109_noiseless' Folder. <br/>
 The generated pressure field can be read using 'Load_PINN_results.m'. <br/>
 
