@@ -15,8 +15,8 @@ The workflow is as follows:
 4) Generate the pressure field with trained PINN.
 5) Load the PINN-generated data and plot the results.
 
-Details for each procedure:
-**1. Training data**
+Details for each procedure: <br/>
+**1. Training data** <br/>
 + format: .mat files
 + Include serveral variables:
   * r: Sampled range
