@@ -10,7 +10,7 @@ Tensorflow==2.10.0
 
 
 # Citation
-@article{yoon2024predicting,
+'''@article{yoon2024predicting,
   title={Predicting ocean pressure field with a physics-informed neural network},
   author={Yoon, Seunghyun and Park, Yongsung and Gerstoft, Peter and Seong, Woojae},
   journal={The Journal of the Acoustical Society of America},
@@ -18,4 +18,4 @@ Tensorflow==2.10.0
   number={3},
   pages={2037--2049},
   year={2024}
-}
+}'''
