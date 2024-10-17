@@ -1,6 +1,6 @@
 {
     "data_name" : "p_109_noiseless.mat",
-    "lr" : 1e-3,
+    "lr" : 1e-4,
     "max_iter" : 1200000,
     "num_col": 3000,
     "bnd_num": 100,
